@@ -1,5 +1,5 @@
 # Large Thai Multi-domain Multi-environment
-This repository contains the experimental setup described in the Speech-to-Text Cartography paper. We provide a list of 10 data sources used for Thai speech recognition, which are divided into three sets based on the original public datasets.
+This repository contains the experimental setup described in the Speech-to-Text Cartography paper. We provide a list of 10 data sources used for Thai speech recognition, which are divided into three sets based on the original public datasets. Totally, the LTMM dataset contains 381.98 hours of speech in the final version (public+private), with 336.75 hours for the public dataset and 45.23 hours for the private dataset, as around 88.16% and 11.84%, respectively.
 
 ## Resample audio command
 ```
