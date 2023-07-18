@@ -2,10 +2,10 @@
 This repository contains the experimental setup described in the Speech-to-Text Cartography paper. We provide a list of 10 data sources used for Thai speech recognition, which are divided into three sets based on the original public datasets. Totally, the LTMM dataset contains 381.98 hours of speech in the final version (public+private), with 336.75 hours for the public dataset and 45.23 hours for the private dataset, as around 88.16% and 11.84%, respectively.
 
 ## List of dataset source
-| Dataset | Description | Link |
-| --- | --- | --- |
-| `Common voice 12 (CV12)` | List all *new or modified* files | `h` |
-| `Gowajee` | Show file differences that **haven't been** staged | `h` |
+| Dataset | Description | Domain | Environment | Link |
+| --- | --- | --- | --- | --- |
+| `Common voice 12 (CV12)` | a crowd-sourced, open-licensed dataset where speakers record text from Wikipedia in various languages |  Wikipedia (General) | Open | [link](https://commonvoice.mozilla.org/th/datasets) |
+| `Fleur` | a dataset with real noise recordings in 102 languages, it consists of a collection of audio recordings from various speakers, covering a wide range of speaking styles, topics, and environments | news broadcasts, interviews, podcasts, lectures, conversations, and more | Open and Real-world | [link](https://huggingface.co/datasets/google/fleurs/viewer/th_th/train) |
 
 ## Resample audio command
 ```
