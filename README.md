@@ -5,8 +5,13 @@ This repository contains the experimental setup described in the Speech-to-Text 
 | Dataset | Description | Domain | Environment | Link |
 | --- | --- | --- | --- | --- |
 | `Common voice 12 (CV12)` | a crowd-sourced, open-licensed dataset where speakers record text from Wikipedia in various languages |  Wikipedia (General) | Open | [link](https://commonvoice.mozilla.org/th/datasets) |
-| `Fleur` | a dataset with real noise recordings in 102 languages, it consists of a collection of audio recordings from various speakers, covering a wide range of speaking styles, topics, and environments | news broadcasts, interviews, podcasts, lectures, conversations, and more | Open and Real-world | [link](https://huggingface.co/datasets/google/fleurs/viewer/th_th/train) |
-| `Thai Elderly Speech Command (TESC)` | a crowd-sourced, open-licensed dataset where speakers record text from Wikipedia in various languages |  Wikipedia (General) | Open | [link](https://commonvoice.mozilla.org/th/datasets) |
+| `Fleur` | a dataset with real noise recordings in 102 languages, it consists of a collection of audio recordings from various speakers, covering a wide range of speaking styles, topics, and environments | news broadcasts, interviews, podcasts, lectures, conversations, and more. | Open and Real-world | [link](https://huggingface.co/datasets/google/fleurs/viewer/th_th/train) |
+| `Gowajee` | a recording input command voices spoken into a microphone for ordering smart devices. The recording environment varied over the years, with a uni-directional microphone used initially and uncontrolled microphones in later years, and the recording location is not fixed, introducing uncontrolled environmental factors. |  Smart-device | Semi-open | [link](https://github.com/ekapolc/gowajee_corpus) |
+| `Thai Elderly Speech Command (TESC)` | a recording input command voices spoken into a microphone for ordering smart devices. | Smart-device | Close | [link](https://github.com/VISAI-DATAWOW/Thai-Elderly-Speech-dataset/releases/tag/v1.0.0) |
+| `Thai Speech Emotion Dataset (ThaiSER)` | a crowd-sourced, open-licensed dataset where speakers record text from Wikipedia in various languages |  Conversation | Close | [link](https://github.com/vistec-AI/dataset-releases/releases/tag/v1) |
+| `Common voice 12 (CV12)` | a crowd-sourced, open-licensed dataset where speakers record text from Wikipedia in various languages |  Wikipedia (General) | Open | [link](https://commonvoice.mozilla.org/th/datasets) |
+| `Common voice 12 (CV12)` | a crowd-sourced, open-licensed dataset where speakers record text from Wikipedia in various languages |  Wikipedia (General) | Open | [link](https://commonvoice.mozilla.org/th/datasets) |
+
 
 ## Resample audio command
 ```
