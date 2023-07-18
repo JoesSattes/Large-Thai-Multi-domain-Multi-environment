@@ -6,6 +6,7 @@ This repository contains the experimental setup described in the Speech-to-Text 
 | --- | --- | --- | --- | --- |
 | `Common voice 12 (CV12)` | a crowd-sourced, open-licensed dataset where speakers record text from Wikipedia in various languages |  Wikipedia (General) | Open | [link](https://commonvoice.mozilla.org/th/datasets) |
 | `Fleur` | a dataset with real noise recordings in 102 languages, it consists of a collection of audio recordings from various speakers, covering a wide range of speaking styles, topics, and environments | news broadcasts, interviews, podcasts, lectures, conversations, and more | Open and Real-world | [link](https://huggingface.co/datasets/google/fleurs/viewer/th_th/train) |
+| `Thai Elderly Speech Command (TESC)` | a crowd-sourced, open-licensed dataset where speakers record text from Wikipedia in various languages |  Wikipedia (General) | Open | [link](https://commonvoice.mozilla.org/th/datasets) |
 
 ## Resample audio command
 ```
