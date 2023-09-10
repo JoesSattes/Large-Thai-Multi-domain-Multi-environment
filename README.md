@@ -24,5 +24,8 @@ In our experiment, we collected 10 datasets as part of LTMM. Each dataset provid
 
 For the other datasets, we only applied Thai normalization while following the original splitting provided by each dataset.
 
+## Normal fine-tuning
+We recommend these scripts to start fine-tuning the ASR with LTMM; [Wav2Vec2](https://huggingface.co/blog/fine-tune-xlsr-wav2vec2), [Whisper](https://huggingface.co/blog/fine-tune-whisper).
+
 ## The access of private dataset
 Currently, the private datasets are not included in this version due to privacy concerns and legal regulations in Thailand. However, we have plans to develop new datasets following the same criteria as ProVoice and KCall in the future. For more information, please contact us at `sattaya.s@kbtg.tech`.
