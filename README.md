@@ -28,11 +28,11 @@ For the other datasets, we only applied Thai normalization while following the o
 We recommend these scripts to start fine-tuning the ASR with LTMM; [Wav2Vec2](https://huggingface.co/blog/fine-tune-xlsr-wav2vec2), [Whisper](https://huggingface.co/blog/fine-tune-whisper).
 
 ## The Access of Private Dataset
-Currently, the private datasets are not included in this version due to privacy concerns and legal regulations in Thailand. However, we have plans to develop new datasets following the same criteria as ProVoice and KCall in the future. For more information, please contact us at `sattaya.s@kbtg.tech`.
+Currently, the private datasets are not included in this version due to privacy concerns and legal regulations in Thailand. However, we have plans to develop new datasets following the same criteria as ProVoice and KCall in the future. For more information, please contact us at `XXX`.
 
 ## The Evaluation Performance
 ![Thai ASR on WER performance](LTMM_result/LTMM_WER_experiment.png)
 ![Thai ASR on CER performance](LTMM_result/LTMM_CER_experiment.png)
 
 ## Originally Script Reference
-- CV_prepro: https://github.com/ekapolc/Thai_commonvoice_split.git
+- CV_prepro: XXX
