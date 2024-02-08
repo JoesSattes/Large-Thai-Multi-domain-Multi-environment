@@ -29,3 +29,7 @@ We recommend these scripts to start fine-tuning the ASR with LTMM; [Wav2Vec2](ht
 
 ## The access of private dataset
 Currently, the private datasets are not included in this version due to privacy concerns and legal regulations in Thailand. However, we have plans to develop new datasets following the same criteria as ProVoice and KCall in the future. For more information, please contact us at `sattaya.s@kbtg.tech`.
+
+## The evaluation performance
+![Thai ASR on WER performance](LTMM_result/LTMM_WER_experiment.png)
+![Thai ASR on CER performance](LTMM_result/LTMM_CER_experiment.png)
