@@ -33,3 +33,6 @@ Currently, the private datasets are not included in this version due to privacy 
 ## The Evaluation Performance
 ![Thai ASR on WER performance](LTMM_result/LTMM_WER_experiment.png)
 ![Thai ASR on CER performance](LTMM_result/LTMM_CER_experiment.png)
+
+## Originally Script Reference
+- CV_prepro: https://github.com/ekapolc/Thai_commonvoice_split.git
