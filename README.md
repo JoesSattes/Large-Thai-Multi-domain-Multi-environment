@@ -14,22 +14,22 @@ This repository contains the experimental setup described in the Speech-to-Text 
 | Thai Speech Recognition Corpus from NECTEC (LOTUS) | A Thai speech recognition corpus with acoustic details such as phonetics. The transcription distribution is also similar to daily used context (ORCHID corpus in this case). | General | Close (Clean and Noise) | [Link1](https://aiforthai.in.th/corpus.php) [Link2](https://github.com/korakot/corpus/releases/download/v1.0/AIFORTHAI-LotusCorpus.zip) |
 
 
-## Resample audio command
+## Resample Audio Command
 ```
 ffmpeg -i <audio_path_input> -ac 1 -ar 16000 -o <audio_path_output>
 ```
 
-## Dataset splitting
+## Dataset Splitting
 In our experiment, we collected 10 datasets as part of LTMM. Each dataset provides a final version with successful validation, already divided into train, validate, and test sets. However, the CV12 dataset, although validated by humans, is relatively small compared to the full validation set. To address this, we utilized [TH_CV_script](https://github.com/ekapolc/Thai_commonvoice_split) to expand the size of the CV12 dataset and improve its performance with Thai native script. This script incorporates [TH_Re-validation](https://github.com/ekapolc/Thai_commonvoice_split/blob/main/clean_common_voice.ipynb) for re-validation and [spell_correction](https://github.com/ekapolc/Thai_commonvoice_split/blob/main/spell_correction.py) for Thai normalization in CV12.
 
 For the other datasets, we only applied Thai normalization while following the original splitting provided by each dataset.
 
-## Normal fine-tuning
+## Normal Fine-tuning
 We recommend these scripts to start fine-tuning the ASR with LTMM; [Wav2Vec2](https://huggingface.co/blog/fine-tune-xlsr-wav2vec2), [Whisper](https://huggingface.co/blog/fine-tune-whisper).
 
-## The access of private dataset
+## The Access of Private Dataset
 Currently, the private datasets are not included in this version due to privacy concerns and legal regulations in Thailand. However, we have plans to develop new datasets following the same criteria as ProVoice and KCall in the future. For more information, please contact us at `sattaya.s@kbtg.tech`.
 
-## The evaluation performance
+## The Evaluation Performance
 ![Thai ASR on WER performance](LTMM_result/LTMM_WER_experiment.png)
 ![Thai ASR on CER performance](LTMM_result/LTMM_CER_experiment.png)
