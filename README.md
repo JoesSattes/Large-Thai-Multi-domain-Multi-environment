@@ -30,7 +30,7 @@ We recommend these scripts to start fine-tuning the ASR with LTMM; [Wav2Vec2](ht
 ## The Access of Private Dataset
 Currently, the private datasets are not included in this version due to privacy concerns and legal regulations in Thailand. However, we have plans to develop new datasets following the same criteria as ProVoice and KCall in the future. For more information, please contact us at `XXX`.
 
-## Sample Visualization Result from Our S2T-C
+## Sample Visualization Result from Our S2T-C Approach
 ![s2t_c_vis](sample_s2t_c_vis.png)
 
 ## The Evaluation Performance
